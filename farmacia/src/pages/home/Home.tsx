@@ -16,12 +16,12 @@ function Home() {
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                Nova Postagem
+                                Novo produto
                             </div>
                         </div>
                     </div>
 
-                    <div className="flex justify-center w-[66.5rem]">
+                    <div className="flex justify-center w-[69.5rem]">
                         <img
                             src="https://i.imgur.com/4r2R8H1.png"
                             alt="Imagem Página Home"
