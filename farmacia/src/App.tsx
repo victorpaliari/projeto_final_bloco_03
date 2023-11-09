@@ -6,6 +6,8 @@ import Navbar from "./components/navbar/Navbar";
 import ListaCategoria from "./components/categoria/listaCategoria/ListaCategoria";
 import FormularioCategoria from "./components/categoria/formularioCategoria/FormularioCategoria"
 import DeletarCategoria from './components/categoria/deletarCategoria/DeletarCategoria';
+import Perfil from './pages/perfil/Perfil';
+
 function App() {
   return (
     <>
@@ -15,14 +17,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/categorias" element={<ListaCategoria />} />
-            <Route
-              path="/cadastroCategoria"
-              element={<FormularioCategoria />}/>
-            <Route
-              path="/editarCategoria/:id"
-              element={<FormularioCategoria />}
-            />
+            <Route path="/cadastroCategoria"element={<FormularioCategoria />}/>
+            <Route path="/editarCategoria/:id" element={<FormularioCategoria />}/>
             <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
+            <Route path="/perfil" element={<Perfil />} />
           </Routes>
         </div>
         <Footer />
